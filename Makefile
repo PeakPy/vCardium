@@ -18,4 +18,9 @@ dev:
 prep:
     pipenv update
     pipenv lock --requirements
-    pipenv lock --requirements --dev-only
+    pipenv lock --requirements --dev-only.PHONY: dev test lint
+	pipenv run python project.py
+test:
+	pipenv run pytest -q
+lint:
+	pyflakes project.py
