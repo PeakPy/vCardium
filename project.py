@@ -1,3 +1,12 @@
+﻿\"\"\"vCardium - QR vCard generator (GUI).
+Lightweight, privacy-first, cross-platform.
+\"\"\"
+import logging
+__version__ = "0.1.1"
+logger = logging.getLogger("vcardium")
+if not logger.handlers:
+    logging.basicConfig(level=logging.INFO)
+
 import os
 import sys
 import qrcode
