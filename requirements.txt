@@ -9,4 +9,7 @@
 dearpygui-ext==0.9.5
 dearpygui==1.6.2
 pillow==9.1.1
-qrcode==7.3.1
+qrcode==7.3.1qrcode>=7.4.2
+Pillow>=9.5
+dearpygui>=1.10
+dearpygui-ext>=0.9
