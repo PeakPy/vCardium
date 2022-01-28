@@ -1,3 +1,5 @@
+﻿"""Basic smoke tests for vCardium."""
+
 import os
 import project
 import pytest
